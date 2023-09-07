@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME | iutopy</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -68,7 +69,7 @@
     <section>
       <div class="us-conteiner">
         <div class="us-content">
-          <h2 class="us__title">
+          <h2 class="us__title" data-aos="zoom-in-down">
             Somos un grupo diverso de personas apasionadas por la tecnología,
             dedicadas a desarrollar soluciones digitales personalizadas para
             potenciar tu proyecto.
@@ -86,7 +87,9 @@
       <div class="services-card-conteiner">
         <div class="services container">
           <div class="services-title__conteiner">
-            <h2 class="services__title">¿QUÉ PODEMOS HACER POR TI?</h2>
+            <h2 class="services__title" data-aos="fade-down">
+              ¿QUÉ PODEMOS HACER POR TI?
+            </h2>
           </div>
           <div class="services__card">
             <div class="card">
@@ -243,6 +246,83 @@
                   alt=""
                 />
               </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/google.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/meta.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/instagram.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/tiktok.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/youtubestudio.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/wix.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/slack.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/basecamp.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/openai.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/mid.svg"
+                  alt=""
+                />
+              </div>
+              <div class="slider">
+                <img
+                  class="carrousel__image"
+                  src="./source/logos/klaviyo.svg"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
@@ -253,7 +333,7 @@
         <div class="proyects-conteiner">
           <div>
             <div class="proyects-title">
-              <h2 class="proyects__title">PROYECTOS</h2>
+              <h2 class="proyects__title" data-aos="fade-down">PROYECTOS</h2>
             </div>
           </div>
           <div class="proyects-content">
@@ -261,7 +341,7 @@
               <div class="proyects-card-img-cont">
                 <img
                   class="proyect-card__image"
-                  src="./source/proyects/192343.webp"
+                  src="./source/proyects/IMG_9405-Mejorado-NR.webp"
                   alt=""
                 />
               </div>
@@ -283,7 +363,7 @@
               <div class="proyects-card-img-cont">
                 <img
                   class="proyect-card__image"
-                  src="./source/proyects/IMG_9405-Mejorado-NR.webp"
+                  src="./source/proyects/192343.webp"
                   alt=""
                 />
               </div>
@@ -309,14 +389,15 @@
 
     <section id="nosotros" class="carr-equip">
       <div class="proyects-title">
-        <h2 class="proyects__title">NUESTRO GRAN EQUIPO</h2>
+        <h2 class="proyects__title" data-aos="fade-down">
+          NUESTRO GRAN EQUIPO
+        </h2>
       </div>
       <div class="cards-conteiner">
         <input type="radio" name="dot" id="one" />
         <input type="radio" name="dot" id="two" />
         <input type="radio" name="dot" id="three" />
         <input type="radio" name="dot" id="four" />
-
         <div class="cards-content-conteiner">
           <div class="carr-equip-conteiner">
             <div class="carr-equip-content">
@@ -649,13 +730,10 @@
           <label class="three active" for="three"></label>
           <label class="four active" for="four"></label>
         </div>
-        <div class="image">
-          <img src="./source/iconsclick.png" alt="" />
-        </div>
       </div>
     </section>
     <section class="contact">
-      <h1 class="contact__title">
+      <h1 class="contact__title" data-aos="fade-down">
         SI TIENES IDEAS PARA TU MARCA O NEGOCIOS
         <span class="text__form">ESTAMOS AQUÍ PARA ESCUCHAR Y COLABORAR</span>
       </h1>
@@ -717,5 +795,9 @@
         </p>
       </div>
     </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
