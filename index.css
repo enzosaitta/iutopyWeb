@@ -581,7 +581,7 @@ body {
 .cards-conteiner {
   display: flex;
   flex-direction: column;
-  max-width: 60vw;
+  max-width: 70vw;
   background-color: rgb(3, 0, 0);
   padding: 80px 0;
   gap: 10px;
